@@ -32,3 +32,8 @@
 *.so            binary
 *.war           binary
 *.jks           binary
+
+#
+# Enable syntax highlighting for files with `.gitattributes` extensions.
+#
+*.gitattributes linguist-language=gitattributes
