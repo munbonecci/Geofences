@@ -16,7 +16,7 @@ git clone https://github.com/munbonecci/Geofences.git
 
 ## Build variants
 
-Use the Android Studio *Build Variants* button to choose between **debug** and **release** flavors
+Use the Android Studio *Build Variants* button to choose between **debug** and **release** flavors.
 
 ## Maintainers
 
