@@ -1,0 +1,33 @@
+<resources>
+  <string name="app_name">Geofence Demo</string>
+  <string name="instruction_where_description">Where do you want to add a Geofence?</string>
+  <string name="instruction_where_subtitle_description">Drag the map to set the location</string>
+  <string name="instruction_radius_description">Choose the radius</string>
+  <string name="instruction_message_description">Enter the message</string>
+  <string name="continue_description">Continue</string>
+  <string name="error_required">Required</string>
+  <string name="message_hint">We arrived!</string>
+  <string name="radius_description">%1$s meters</string>
+
+  <string name="geofence_removal_alert">Remove Geofence?</string>
+  <string name="geofence_removal_alert_positive">OK</string>
+  <string name="geofence_removal_alert_negative">Cancel</string>
+
+  <string name="geofence_added_success">Geofence added!</string>
+  <string name="geofence_removed_success">Geofence removed!</string>
+
+  <string name="marker_content_description">Marker</string>
+
+  <string name="geofence_unknown_error">
+    Unknown error: the Geofence service is not available now.
+  </string>
+  <string name="geofence_not_available">
+    Geofence service is not available now. Go to Settings>Location>Mode and choose High accuracy.
+  </string>
+  <string name="geofence_too_many_geofences">
+    Your app has registered too many geofences.
+  </string>
+  <string name="geofence_too_many_pending_intents">
+    You have provided too many PendingIntents to the addGeofences() call.
+  </string>
+</resources>

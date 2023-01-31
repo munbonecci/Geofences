@@ -1,0 +1,33 @@
+<resources>
+  <string name="app_name">Demo de Geocercas</string>
+  <string name="instruction_where_description">¿Donde quieres agregar una Geocerca?</string>
+  <string name="instruction_where_subtitle_description">Arrastra el mapa para seleccionar una ubicación</string>
+  <string name="instruction_radius_description">Elige el radio</string>
+  <string name="instruction_message_description">Agrega un mensaje</string>
+  <string name="continue_description">Continuar</string>
+  <string name="error_required">Requerido</string>
+  <string name="message_hint">Llegamos!</string>
+  <string name="radius_description">%1$s metros</string>
+
+  <string name="geofence_removal_alert">¡Quieres remover la geocerca?</string>
+  <string name="geofence_removal_alert_positive">OK</string>
+  <string name="geofence_removal_alert_negative">Cancelar</string>
+
+  <string name="geofence_added_success">¡Se agrego una geocerca!</string>
+  <string name="geofence_removed_success">¡Se removio una geocerca!</string>
+
+  <string name="marker_content_description">Marcador</string>
+
+  <string name="geofence_unknown_error">
+   Error desconocido: El servicio no se encuentra disponible.
+  </string>
+  <string name="geofence_not_available">
+    El servicio de geocerca no esta disponible. Ve a Ajustes>Ubicación>Selecciona alta precision.
+  </string>
+  <string name="geofence_too_many_geofences">
+    Has agregado muchas geocercas.
+  </string>
+  <string name="geofence_too_many_pending_intents">
+    Has hehco muchos intentos all llamado addGeofences().
+  </string>
+</resources>
