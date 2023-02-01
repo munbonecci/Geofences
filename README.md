@@ -26,10 +26,14 @@ This project is maintained by:
 
 ## Built with
 
-- [Kotlin](https://kotlinlang.org/) - For coding.
-- [Maps](https://developers.google.com/maps/documentation/android-sdk/start) - Maps.
-- [Geofencing](https://developer.android.com/training/location/geofencing) - Geofencing.
-- [Junit](https://developer.android.com/training/testing/junit-runner?hl=es-419) - For unit tests.
+- [Kotlin](https://kotlinlang.org/) -For coding.
+- [Maps](https://developers.google.com/maps/documentation/android-sdk/start) -Maps.
+- [Geofencing](https://developer.android.com/training/location/geofencing) -Geofencing.
+- [Work Manager](https://developer.android.com/topic/libraries/architecture/workmanager) -Is the recommended solution for persistent work.
+- [Service](https://developer.android.com/reference/android/app/Service) -A Service is an application 
+component representing either an application's desire to perform a longer-running operation while 
+not interacting with the user or to supply functionality for other applications to use.
+- [Junit](https://developer.android.com/training/testing/junit-runner?hl=es-419) -For unit tests.
 - [Sonarqube](https://docs.sonarqube.org/latest/) -Self-managed, automatic code review tool that systematically helps you deliver clean code.
 - [Jacoco](https://www.jacoco.org) -For coverage reports.
 
@@ -46,5 +50,6 @@ This project is maintained by:
 
 - Make sure you are running Sonarqube locally or somewhere online
 - If you are running Sonarqube locally add your sonar.login and sonar.password from build.gradle(:app)
-- From terminal in android studio preferably execute the following command: ./gradlew clean connectedAndroidTest test createDebugCoverageReport jacocoTestReport sonarqube
+- From terminal in android studio preferably execute the following command: 
+./gradlew clean connectedAndroidTest test createDebugCoverageReport jacocoTestReport sonarqube
 - When build finish open or refresh your Sonarqube from localhost or origin in your browser.
